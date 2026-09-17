@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aman — Aspiring Machine Learning Engineer</title>
+<meta name="description" content="Portfolio of Aman, a 1st-year college student building foundations in programming, mathematics, and machine learning.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Aman — Aspiring Machine Learning Engineer">
+<meta property="og:description" content="1st-year college student documenting a journey into programming, data, and machine learning.">
+<meta property="og:type" content="website">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- NAVBAR -->
+<header class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="logo">
+      <span class="logo-mark">λ</span>
+      <span class="logo-text">Aman</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#journey" class="nav-link">ML Journey</a>
+      <a href="#education" class="nav-link">Education</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="hero-eyebrow">1st Year Student · Aspiring Machine Learning Engineer</p>
+        <h1 class="hero-title">Aman</h1>
+        <p class="hero-desc">
+          I'm a first-year college student building my foundations in programming, Python, mathematics, and machine learning. I'm interested in understanding how intelligent systems work and turning what I learn into practical projects.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">Explore My Projects</a>
+          <a href="#journey" class="btn btn-ghost">My Learning Journey</a>
+        </div>
+        <div class="hero-social">
+          <a href="[YOUR GITHUB]" class="social-link" aria-label="GitHub profile" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 .5A11.5 11.5 0 0 0 .5 12c0 5.1 3.29 9.43 7.86 10.96.57.1.78-.25.78-.55v-2.15c-3.2.7-3.87-1.36-3.87-1.36-.53-1.33-1.29-1.69-1.29-1.69-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.71 1.26 3.37.96.1-.74.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.08-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.82 1.19 3.08 0 4.41-2.7 5.38-5.27 5.67.42.36.78 1.07.78 2.16v3.2c0 .31.21.66.79.55A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>
+            <span>GitHub</span>
+          </a>
+          <a href="[YOUR LINKEDIN]" class="social-link" aria-label="LinkedIn profile" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM.5 8.98h8.96V23H.5V8.98ZM14.48 8.98h5.7v1.92h.08c.79-1.5 2.73-3.08 5.62-3.08 6.01 0 7.12 3.96 7.12 9.1V23h-8.96v-6.08c0-1.45-.03-3.32-2.02-3.32-2.03 0-2.34 1.58-2.34 3.21V23h-8.96V8.98Z" transform="scale(0.72)"/></svg>
+            <span>LinkedIn</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="terminal">
+          <div class="terminal-bar">
+            <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+            <span class="terminal-title">learning.py</span>
+          </div>
+          <div class="terminal-body">
+            <pre><code><span class="tok-kw">import</span> <span class="tok-mod">numpy</span> <span class="tok-kw">as</span> <span class="tok-mod">np</span>
+<span class="tok-kw">from</span> <span class="tok-mod">sklearn</span> <span class="tok-kw">import</span> <span class="tok-mod">model_selection</span>
+
+<span class="tok-kw">class</span> <span class="tok-cls">AspiringEngineer</span>:
+    <span class="tok-kw">def</span> <span class="tok-fn">__init__</span>(<span class="tok-var">self</span>):
+        <span class="tok-var">self</span>.stage = <span class="tok-str">"year_1"</span>
+        <span class="tok-var">self</span>.skills = [<span class="tok-str">"python"</span>, <span class="tok-str">"c"</span>,
+                       <span class="tok-str">"math_for_ml"</span>]
+        <span class="tok-var">self</span>.status = <span class="tok-str">"learning"</span>
+
+    <span class="tok-kw">def</span> <span class="tok-fn">grow</span>(<span class="tok-var">self</span>):
+        <span class="tok-kw">while</span> <span class="tok-var">self</span>.status == <span class="tok-str">"learning"</span>:
+            <span class="tok-var">self</span>.build_project()
+            <span class="tok-var">self</span>.skills.append(<span class="tok-str">"+1"</span>)
+        <span class="tok-kw">return</span> <span class="tok-str">"ml_engineer"</span></code></pre>
+          </div>
+        </div>
+        <svg class="neural-svg" viewBox="0 0 420 420" aria-hidden="true">
+          <g class="nn-edges" stroke="url(#edgeGrad)" stroke-width="1" fill="none"></g>
+          <g class="nn-nodes" fill="none"></g>
+          <defs>
+            <linearGradient id="edgeGrad" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#6ee7ff"/>
+              <stop offset="100%" stop-color="#a78bfa"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+    </div>
+    <div class="scroll-cue" aria-hidden="true"><span></span></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="section-inner about-grid">
+      <div class="about-copy">
+        <p class="section-eyebrow">About</p>
+        <h2 class="section-title">Starting at the foundation, on purpose.</h2>
+        <p>I'm a first-year college student starting my journey toward machine learning engineering. Right now that means building strong programming fundamentals through C and Python, while working through data structures, algorithms, mathematics, and the core ideas behind machine learning.</p>
+        <p>I'm interested in understanding how data can be used to build intelligent systems — not just using libraries, but knowing what's happening underneath them.</p>
+        <p>I believe in learning by building. That means starting with small, honest projects and gradually moving from fundamentals toward real-world machine learning applications, one concept at a time.</p>
+      </div>
+
+      <div class="learning-card glass">
+        <h3>Currently Learning</h3>
+        <ul class="learning-list">
+          <li>Python</li>
+          <li>C Programming</li>
+          <li>Data Structures</li>
+          <li>Algorithms</li>
+          <li>Statistics</li>
+          <li>Linear Algebra</li>
+          <li>Machine Learning</li>
+          <li>Advanced Web Development</li>
+          <li>Git &amp; GitHub</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="section-inner">
+      <p class="section-eyebrow">Skills</p>
+      <h2 class="section-title">What I'm building, and where it stands</h2>
+      <p class="section-sub">No inflated percentages — just an honest read on where each skill currently sits.</p>
+
+      <div class="skills-groups">
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">Programming</h3>
+          <div class="skill-cards">
+            <div class="skill-card glass"><span class="skill-name">Python</span><span class="skill-stage stage-learning">Learning</span></div>
+            <div class="skill-card glass"><span class="skill-name">C</span><span class="skill-stage stage-learning">Learning</span></div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">Data &amp; Mathematics</h3>
+          <div class="skill-cards">
+            <div class="skill-card glass"><span class="skill-name">NumPy</span><span class="skill-stage stage-exploring">Exploring</span></div>
+            <div class="skill-card glass"><span class="skill-name">Pandas</span><span class="skill-stage stage-exploring">Exploring</span></div>
+            <div class="skill-card glass"><span class="skill-name">Statistics</span><span class="skill-stage stage-learning">Learning</span></div>
+            <div class="skill-card glass"><span class="skill-name">Linear Algebra</span><span class="skill-stage stage-learning">Learning</span></div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">Machine Learning</h3>
+          <div class="skill-cards">
+            <div class="skill-card glass"><span class="skill-name">ML Fundamentals</span><span class="skill-stage stage-learning">Learning</span></div>
+            <div class="skill-card glass"><span class="skill-name">Supervised Learning</span><span class="skill-stage stage-learning">Learning</span></div>
+            <div class="skill-card glass"><span class="skill-name">Unsupervised Learning</span><span class="skill-stage stage-exploring">Exploring</span></div>
+            <div class="skill-card glass"><span class="skill-name">Model Evaluation</span><span class="skill-stage stage-learning">Learning</span></div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">Tools</h3>
+          <div class="skill-cards">
+            <div class="skill-card glass"><span class="skill-name">VS Code</span><span class="skill-stage stage-using">Using</span></div>
+            <div class="skill-card glass"><span class="skill-name">Git</span><span class="skill-stage stage-using">Using</span></div>
+            <div class="skill-card glass"><span class="skill-name">GitHub</span><span class="skill-stage stage-using">Using</span></div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">Web</h3>
+          <div class="skill-cards">
+            <div class="skill-card glass"><span class="skill-name">HTML</span><span class="skill-stage stage-using">Using</span></div>
+            <div class="skill-card glass"><span class="skill-name">CSS</span><span class="skill-stage stage-using">Using</span></div>
+            <div class="skill-card glass"><span class="skill-name">JavaScript</span><span class="skill-stage stage-learning">Learning</span></div>
+            <div class="skill-card glass"><span class="skill-name">Advanced Web Dev</span><span class="skill-stage stage-learning">Learning</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="section-inner">
+      <p class="section-eyebrow">Projects</p>
+      <h2 class="section-title">Machine Learning Projects</h2>
+      <p class="section-sub">Beginner and intermediate projects from my learning process — edit the details in <code>script.js</code> as new ones are finished.</p>
+
+      <div class="project-grid" id="projectGrid"><!-- injected by script.js --></div>
+
+      <div class="c-projects glass">
+        <div class="c-projects-head">
+          <h3>C Programming Projects</h3>
+          <span class="badge badge-soon">Learning Project</span>
+        </div>
+        <p>Small programs written while learning C — the building blocks before moving into data structures and algorithms.</p>
+        <ul class="c-projects-list">
+          <li>Calculator</li>
+          <li>Number Guessing Game</li>
+          <li>Student Grade Calculator</li>
+          <li>Pattern Programs</li>
+          <li>Basic Data Structure Programs</li>
+        </ul>
+        <a href="[YOUR GITHUB]" class="btn btn-ghost btn-small" target="_blank" rel="noopener">View on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ML JOURNEY -->
+  <section class="section" id="journey">
+    <div class="section-inner">
+      <p class="section-eyebrow">ML Journey</p>
+      <h2 class="section-title">My Machine Learning Journey</h2>
+      <p class="section-sub">Learn → Build → Experiment → Improve</p>
+
+      <ol class="timeline" id="timeline">
+        <li class="timeline-item"><span class="timeline-dot"></span><div class="timeline-content"><span class="timeline-year">2026</span><h4>Started College</h4></div></li>
+        <li class="timeline-item"><span class="timeline-dot"></span><div class="timeline-content"><h4>Started C Programming</h4></div></li>
+        <li class="timeline-item"><span class="timeline-dot"></span><div class="timeline-content"><h4>Started Python</h4></div></li>
+        <li class="timeline-item"><span class="timeline-dot"></span><div class="timeline-content"><h4>Learned Programming Fundamentals</h4></div></li>
+        <li class="timeline-item"><span class="timeline-dot"></span><div class="timeline-content"><h4>Started Data Structures &amp; Algorithms</h4></div></li>
+        <li class="timeline-item"><span class="timeline-dot"></span><div class="timeline-content"><h4>Started Mathematics for ML</h4></div></li>
+        <li class="timeline-item"><span class="timeline-dot"></span><div class="timeline-content"><h4>Started Machine Learning</h4></div></li>
+        <li class="timeline-item"><span class="timeline-dot"></span><div class="timeline-content"><h4>Built First ML Projects</h4></div></li>
+        <li class="timeline-item"><span class="timeline-dot"></span><div class="timeline-content"><h4>Exploring Advanced ML &amp; AI</h4></div></li>
+      </ol>
+
+      <!-- ROADMAP -->
+      <div class="roadmap">
+        <h3 class="roadmap-title">Planned Learning Path</h3>
+        <div class="roadmap-track" id="roadmapTrack">
+          <div class="roadmap-node status-now"><span class="roadmap-badge">Learning Now</span><span class="roadmap-label">Programming Fundamentals</span></div>
+          <div class="roadmap-node status-now"><span class="roadmap-badge">Learning Now</span><span class="roadmap-label">Python</span></div>
+          <div class="roadmap-node status-next"><span class="roadmap-badge">Next</span><span class="roadmap-label">NumPy + Pandas</span></div>
+          <div class="roadmap-node status-next"><span class="roadmap-badge">Next</span><span class="roadmap-label">Statistics + Probability</span></div>
+          <div class="roadmap-node status-next"><span class="roadmap-badge">Next</span><span class="roadmap-label">Linear Algebra</span></div>
+          <div class="roadmap-node status-next"><span class="roadmap-badge">Next</span><span class="roadmap-label">Machine Learning</span></div>
+          <div class="roadmap-node status-future"><span class="roadmap-badge">Future</span><span class="roadmap-label">Scikit-learn</span></div>
+          <div class="roadmap-node status-future"><span class="roadmap-badge">Future</span><span class="roadmap-label">Deep Learning</span></div>
+          <div class="roadmap-node status-future"><span class="roadmap-badge">Future</span><span class="roadmap-label">PyTorch / TensorFlow</span></div>
+          <div class="roadmap-node status-future"><span class="roadmap-badge">Future</span><span class="roadmap-label">Computer Vision / NLP</span></div>
+          <div class="roadmap-node status-future"><span class="roadmap-badge">Future</span><span class="roadmap-label">ML Engineering</span></div>
+          <div class="roadmap-node status-future"><span class="roadmap-badge">Future</span><span class="roadmap-label">Real-world AI Systems</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEM SOLVING -->
+  <section class="section" id="problem-solving">
+    <div class="section-inner">
+      <p class="section-eyebrow">Problem Solving</p>
+      <h2 class="section-title">Programming &amp; Problem Solving</h2>
+      <p class="section-sub">Topics I'm working through, one problem at a time.</p>
+      <div class="topic-chips">
+        <span class="chip">Arrays</span>
+        <span class="chip">Strings</span>
+        <span class="chip">Hash Maps</span>
+        <span class="chip">Linked Lists</span>
+        <span class="chip">Recursion</span>
+        <span class="chip">Searching</span>
+        <span class="chip">Sorting</span>
+        <span class="chip">Basic Algorithms</span>
+      </div>
+      <a href="[YOUR LEETCODE]" class="btn btn-ghost btn-small" target="_blank" rel="noopener">View Problem Solving Profile</a>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section" id="education">
+    <div class="section-inner">
+      <p class="section-eyebrow">Education</p>
+      <h2 class="section-title">Education</h2>
+      <div class="education-card glass">
+        <div class="education-main">
+          <h3>[COLLEGE NAME]</h3>
+          <p>[DEGREE / COURSE]</p>
+        </div>
+        <div class="education-meta">
+          <span class="badge">1st Year</span>
+          <span class="edu-grad">Expected Graduation: [YEAR]</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BUILDING IN PUBLIC -->
+  <section class="section" id="building">
+    <div class="section-inner">
+      <p class="section-eyebrow">GitHub</p>
+      <h2 class="section-title">Building in Public</h2>
+      <p class="section-sub">I'm documenting my learning journey through code, experiments, and projects.</p>
+      <div class="building-grid">
+        <a class="building-card glass" href="[YOUR GITHUB]" target="_blank" rel="noopener">
+          <h4>GitHub</h4><p>All commits, experiments, and repositories.</p>
+        </a>
+        <a class="building-card glass" href="[YOUR GITHUB]" target="_blank" rel="noopener">
+          <h4>ML Projects</h4><p>Machine learning notebooks and models.</p>
+        </a>
+        <a class="building-card glass" href="[YOUR GITHUB]" target="_blank" rel="noopener">
+          <h4>C Projects</h4><p>Programming fundamentals in C.</p>
+        </a>
+        <a class="building-card glass" href="[YOUR GITHUB]" target="_blank" rel="noopener">
+          <h4>Web Projects</h4><p>Front-end builds like this one.</p>
+        </a>
+      </div>
+      <p class="github-note">Want live GitHub stats here? See the "GitHub stats" note in <code>script.js</code> for optional setup — nothing is hard-coded.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="section-inner contact-grid">
+      <div>
+        <p class="section-eyebrow">Contact</p>
+        <h2 class="section-title">Let's talk</h2>
+        <p class="section-sub">Reach out about collaboration, feedback, or just to say hi.</p>
+        <ul class="contact-list">
+          <li><span>Email</span><a href="mailto:[YOUR EMAIL]">[YOUR EMAIL]</a></li>
+          <li><span>GitHub</span><a href="[YOUR GITHUB]" target="_blank" rel="noopener">[YOUR GITHUB]</a></li>
+          <li><span>LinkedIn</span><a href="[YOUR LINKEDIN]" target="_blank" rel="noopener">[YOUR LINKEDIN]</a></li>
+          <li><span>Instagram</span><a href="[YOUR INSTAGRAM]" target="_blank" rel="noopener">[YOUR INSTAGRAM]</a></li>
+        </ul>
+      </div>
+
+      <form class="contact-form glass" id="contactForm" novalidate>
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required autocomplete="name">
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required autocomplete="email">
+        </div>
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div>
+      <p class="footer-name">Aman</p>
+      <p class="footer-tag">1st Year Student • Aspiring Machine Learning Engineer</p>
+    </div>
+    <div class="footer-social">
+      <a href="[YOUR GITHUB]" target="_blank" rel="noopener">GitHub</a>
+      <a href="[YOUR LINKEDIN]" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="[YOUR INSTAGRAM]" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </div>
+  <p class="footer-copy">© 2026 Aman. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
