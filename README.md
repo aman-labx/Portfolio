@@ -56,7 +56,7 @@ My long-term goal is to become a skilled **Machine Learning Engineer** and build
 ## 📫 Connect With Me
 
 * GitHub: **[YOUR_GITHUB_LINK](YOUR_GITHUB_LINK)**
-* LinkedIn: **[YOUR_LINKEDIN_LINK](YOUR_LINKEDIN_LINK)**
+* LinkedIn: **[LINKEDIN-Aman Machhirke](https://www.linkedin.com/in/aman-machhirke-4a9a88437/)**
 * Instagram: **[YOUR_INSTAGRAM_LINK](YOUR_INSTAGRAM_LINK)**
 
 ---
