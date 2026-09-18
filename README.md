@@ -49,15 +49,11 @@ I’m a **1st Year College Student and Aspiring Machine Learning Engineer**, cur
 
 My long-term goal is to become a skilled **Machine Learning Engineer** and build practical AI/ML projects that solve real-world problems.
 
-## 🌐 Live Portfolio
-
-**[View My Portfolio](YOUR_LIVE_PORTFOLIO_LINK)**
-
 ## 📫 Connect With Me
 
-* GitHub: **[YOUR_GITHUB_LINK](YOUR_GITHUB_LINK)**
-* LinkedIn: **[LINKEDIN-Aman Machhirke](https://www.linkedin.com/in/aman-machhirke-4a9a88437/)**
-* Instagram: **[YOUR_INSTAGRAM_LINK](YOUR_INSTAGRAM_LINK)**
+* GitHub: **[aman-labx](https://github.com/aman-labx)**
+* LinkedIn: **[Aman Machhirke](https://www.linkedin.com/in/aman-machhirke-4a9a88437/)**
+* Instagram: **[m.aman_69](https://www.instagram.com/m.aman_69/)**
 
 ---
 
