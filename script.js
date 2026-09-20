@@ -8,11 +8,11 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       title: "Student Performance Prediction",
       description:
-        "A beginner machine learning project exploring how different student-related factors can be used to predict academic performance.",
+       "A beginner machine learning project that predicts a student's final academic score using study hours, attendance, previous score, assignment completion, sleep hours, and extracurricular activity.",
       tech: ["Python", "Pandas", "NumPy", "Scikit-learn"],
       status: "learning",
-      githubUrl: "#",
-      demoUrl: "#"
+      githubUrl: "https://github.com/aman-labx/student-performance-prediction",
+      demoUrl: ""
     },
 
     {
@@ -111,6 +111,10 @@ document.addEventListener("DOMContentLoaded", () => {
             </div>
 
             <div class="project-links">
+             
+             ${
+               project.githubUrl
+             ? `
 
               <a
                 href="${project.githubUrl}"
@@ -119,7 +123,13 @@ document.addEventListener("DOMContentLoaded", () => {
               >
                 GitHub →
               </a>
+                `
+                 : ""
+             }
 
+              ${
+                project.demoUrl
+              ? `
               <a
                 href="${project.demoUrl}"
                 target="_blank"
@@ -127,7 +137,10 @@ document.addEventListener("DOMContentLoaded", () => {
               >
                 Live Demo →
               </a>
-
+                 `
+                 : ""
+             }
+             
             </div>
 
           </div>
