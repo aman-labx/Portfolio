@@ -21,8 +21,8 @@ document.addEventListener("DOMContentLoaded", () => {
         "A regression-based machine learning project built to understand data preprocessing, feature selection, model training, and evaluation.",
       tech: ["Python", "Pandas", "NumPy", "Scikit-learn"],
       status: "learning",
-      githubUrl: "#",
-      demoUrl: "#"
+      githubUrl: "https://github.com/aman-labx/house-price-prediction",
+      demoUrl: "https://house-price-prediction-d979.onrender.com/"
     },
 
     {
