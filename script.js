@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "A beginner classification project using the Iris dataset to understand supervised learning and model evaluation.",
       tech: ["Python", "Scikit-learn", "Pandas"],
       status: "learning",
-      githubUrl: "#",
+      githubUrl: "https://github.com/aman-labx/iris-classification",
       demoUrl: "#"
     }
   ];
